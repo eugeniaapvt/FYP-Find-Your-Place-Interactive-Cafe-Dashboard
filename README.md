@@ -67,10 +67,11 @@ Sumber data: Google Maps – data cafe wilayah Surakarta.
 - shinyjs
 - shinyWidgets
 
-## How To Run
+## How to Run
 
 Install packages yang diperlukan:
 
+```r
 install.packages(c(
   "shiny",
   "shinydashboard",
@@ -84,10 +85,13 @@ install.packages(c(
   "shinyWidgets",
   "htmltools"
 ))
+```
 
 Kemudian jalankan aplikasi:
 
+```r
 shiny::runApp()
+```
 
 ## Results
 
